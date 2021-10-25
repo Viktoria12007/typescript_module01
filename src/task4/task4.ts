@@ -1,4 +1,4 @@
-// Запустить - npm run start:task4
+// Запустить - npm run task4
 // Тесты - npm run test:task4
 
 export function reverseWords() {

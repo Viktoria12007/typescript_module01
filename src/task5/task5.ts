@@ -1,4 +1,4 @@
-// Запустить - npm run start:task5
+// Запустить - npm run task5
 // Тесты - npm run test:task5
 
 export function squareAndConcatenate() {
