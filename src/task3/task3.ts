@@ -1,4 +1,7 @@
-// Первый кусок кода:
+// Для того, чтобы запустить код выполните "npm run task3"
+// Для того, чтобы запустить тесты выполните "npm run test:task3"
+
+// Первая часть кода:
 
 function someFunc1(data: any) {
     return data.reduce((acc: any, current: any) => {
@@ -6,7 +9,7 @@ function someFunc1(data: any) {
     }, 0);
 }
 
-// Второй кусок кода:
+// Вторая часть кода:
 
 type Human = {
     name: string,
