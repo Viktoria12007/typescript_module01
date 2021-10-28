@@ -7,7 +7,7 @@ export const mockActor = {
   city: 'Machachkala',
   hasOskar: false,
   filmsCount: 10,
-  age: 14,
+  age: '14',
   languages: ['RU-ru', 'EN-us', 'TR-tr'],
 };
 
