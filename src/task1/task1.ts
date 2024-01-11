@@ -12,9 +12,22 @@ export const actor = {
     languages: ['RU-ru', 'EN-us', 'TR-tr'],
 };
 
+interface IActor {
+    name: string,
+    firstName: string,
+    country: string,
+    city: string,
+    hasOskar: boolean,
+    filmsCount: number,
+    age: string,
+    languages: string[],
+}
 
-export const howOldWillBeActorAfterTwentyYears = (actor: any) => {
-    return actor.age + 20;
+export const howOldWillBeActorAfterTwentyYears = (actor: IActor): number => {
+    return Number(actor.age) + 20;
 }
 
 console.log(howOldWillBeActorAfterTwentyYears(actor));
+
+// Ошибка заключалась в том, что конфигурация TypeScript не позволяет прописывать тип any.
+// Вместо any был присвоен интерфейс описывающий структуру объекта actor.
